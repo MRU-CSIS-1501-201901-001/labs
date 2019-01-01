@@ -4,7 +4,15 @@
 
 ### GITHUB
 
-All labs and assignments will be available on GitHub and it would be any changes/corrections to them
+All labs and assignments will be available on GitHub. It is your best interest to be notified of any changes/corrections to them; fortunately, GitHub allows us to do this through its **watch** feature.
+
+Also, having at least a working knowledge of GitHub is very beneficial if you want to pursue a career involving software development. And a growing number of our courses make use of GitHub as well.
+
+So do the following:
+
+- sign up for a GitHub account here: https://github.com/
+  - when you choose a username, choose something that wouldn't raise eyebrows in a job interview
+- go to our [lab GigHub repository](https://github.com/MRU-CSIS-1501-201901-001/labs) and click the ![screenshot](images/lab.00.00.png)
 
 ### <span>REPL.IT</span>
 
