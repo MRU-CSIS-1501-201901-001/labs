@@ -12,7 +12,7 @@ So do the following:
 
 - sign up for a GitHub account here: https://github.com/
   - when you choose a username, choose something that wouldn't raise eyebrows in a job interview
-- go to our [lab GigHub repository](https://github.com/MRU-CSIS-1501-201901-001/labs) and click the **Watch** dropdown and choose **Watching** ![screenshot](https://github.com/MRU-CSIS-1501-201901-001/labs/blob/master/images/lab.00.00.PNG)
+- go to our [lab GigHub repository](https://github.com/MRU-CSIS-1501-201901-001/labs) and click the **Watch** dropdown and choose **Watching**: ![screenshot](images/lab.00.00.png)
 
 ### <span>REPL.IT</span>
 
