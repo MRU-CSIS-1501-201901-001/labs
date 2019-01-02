@@ -22,10 +22,14 @@ Please do the following:
 
 ### <span>REPL.IT</span>
 
+<span>REPL.IT</span> is the site where you will be doing your skill drills, so you'll need to have an account and access to the course where those drills are located.
+
+Let's get started:
+
 - [ ] create a REPL.IT account
   - create an account by signing up at repl.it ... make sure you verify your email and update your profile (just add your first and last name to make my marking life easier and please also add the school).
   - If you want, here's a [quick video overview](https://drive.google.com/a/mtroyal.ca/file/d/1K-dHMREkC4_z_U5b7k4HUBLe0q8m3p5z/view?usp=sharing).
-- [ ] enroll in our REPLIT classroom
+- [ ] enroll in our classroom
   - log in (if you're not in already) to your REPL.IT account
   - paste this enrollment link into the browser: https://repl.it/classroom/invite/4Ii47lS - you should now be able to see `2019 1501 Skill Drills` under your classrooms.
     - If you want, here's a [quick video overview](https://drive.google.com/a/mtroyal.ca/file/d/1PqeRqn1-mPn2MYpNsPgWWP-SP_vnRxqf/view?usp=sharing). The link and classroom name shown in the video is a bit different than our current one, but the steps are the same!
