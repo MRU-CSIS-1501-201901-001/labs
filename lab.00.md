@@ -10,26 +10,43 @@ Also, having at least a working knowledge of GitHub is very beneficial if you wa
 
 So do the following:
 
-- sign up for a GitHub account here: https://github.com/
+- [ ] sign up for a GitHub account here: https://github.com/
   - when you choose a username, choose something that wouldn't raise eyebrows in a job interview
-- go to our [lab GigHub repository](https://github.com/MRU-CSIS-1501-201901-001/labs) and click the **Watch** dropdown and choose **Watching**: ![screenshot](images/lab.00.00.png)
+- [ ] go to our [lab GigHub repository](https://github.com/MRU-CSIS-1501-201901-001/labs) and click the **Watch** dropdown and change the selection from **Not watching** to **Watching**: ![screenshot](images/lab.00.00.png)
+- [ ] [optional] pick up a [GitHub Student Developer Pack](https://help.github.com/articles/applying-for-a-student-developer-pack/); it's not at all required for this course, but it's got some nice benefits if you're interested in software development
+
+**Note:** sometimes notification emails from GitHub will get marked as spam; to avoid this, add notifications<span>@github.com</span> to your accepted emails.
 
 ### <span>REPL.IT</span>
 
+- [ ] create a REPL.IT account
+  - create an account through repl.it ... make sure you verify your email and update your profile (just add your initials and please also add the school).
+  - If you want, here's a [quick video overview](https://drive.google.com/a/mtroyal.ca/file/d/1K-dHMREkC4_z_U5b7k4HUBLe0q8m3p5z/view?usp=sharing).
+- [ ] enroll in our REPLIT classroom
+  - log in (if you're not in already) to your REPL.IT account
+  - paste this enrollment link into the browser: https://repl.it/classroom/invite/VRAwbnk - you should now be able to see `COMP1501 Skill Drills` under your classrooms.
+    - If you want, here's a [quick video overview](https://drive.google.com/a/mtroyal.ca/file/d/1PqeRqn1-mPn2MYpNsPgWWP-SP_vnRxqf/view?usp=sharing)
+
 ### INS
 
-- log in to INS
-- use the `cp -r` command to copy a directory to another directory
-- use the `ls` command to "see" what files and directories are visible in your current directory
-- use the `tree` command to "see" what files and folders are inside other directories
-- use the `cd` command to "move" between directories
-- use the `emacs` command to open a file for editing
-- use the `emacs` command to create and edit a new file
-- use the `ctrl + z` command to suspend emacs / `fg` command to resume it
-- use the `ctrl + x, ctrl + c` command to exit emacs
-- use the `rm` command to delete a file
-- use the `rm -r` command to delete a directory
-- use the `exit` or `ctrl + d` command to exit INS
+All assignments, lab quizzes, and the live coding portion of the final exam will be done on INS - so you need to get comfortable working there as quickly as possible.
+
+Typically, working on INS involves logging in, editing some file(s) - which you might have to copy over from another directory on the system - and then logging off.
+
+To give you a taste of this, do the following:
+
+- [ ] log in to INS
+- [ ] use the `cp -r` command to copy a directory to another directory
+- [ ] use the `ls` command to "see" what files and directories are visible in your current directory
+- [ ] use the `tree` command to "see" what files and folders are inside other directories
+- [ ] use the `cd` command to "move" between directories
+- [ ] use the `emacs` command to open a file for editing
+- [ ] use the `emacs` command to create and edit a new file
+- [ ] use the `ctrl + z` command to suspend emacs / `fg` command to resume it
+- [ ] use the `ctrl + x, ctrl + c` command to exit emacs
+- [ ] use the `rm` command to delete a file
+- [ ] use the `rm -r` command to delete a directory
+- [ ] use the `exit` or `ctrl + d` command to exit INS
 
 | GOAL                                        | REASON                                                                                                                                      |
 | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
