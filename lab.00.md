@@ -26,8 +26,8 @@ Please do the following:
 
 Let's get started:
 
-- [ ] create a REPL.IT account
-  - create an account by signing up at repl.it ... make sure you verify your email and update your profile (just add your first and last name to make my marking life easier and please also add the school).
+- [ ] create a <span>REPL.IT</span> account
+  - create an account by signing up at REPL.IT ... make sure you verify your email and update your profile (just add your first and last name to make my marking life easier and please also add the school).
   - If you want, here's a [quick video overview](https://drive.google.com/a/mtroyal.ca/file/d/1K-dHMREkC4_z_U5b7k4HUBLe0q8m3p5z/view?usp=sharing).
 - [ ] enroll in our classroom
   - log in (if you're not in already) to your REPL.IT account
