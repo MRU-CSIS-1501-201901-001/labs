@@ -34,28 +34,31 @@ Let's get started:
   - paste this enrollment link into the browser: https://repl.it/classroom/invite/4Ii47lS - you should now be able to see `2019 1501 Skill Drills` under your classrooms.
     - If you want, here's a [quick video overview](https://drive.google.com/a/mtroyal.ca/file/d/1PqeRqn1-mPn2MYpNsPgWWP-SP_vnRxqf/view?usp=sharing). The link and classroom name shown in the video is a bit different than our current one, but the steps are the same!
 - [ ] take a look at the `practice lab quiz drill 00` drill
-  - double-click on our classroom to open it
-  - select the `practice lab quiz drill 00` drill
+  - click on our classroom to open it
+  - click on the `practice lab quiz drill 00` drill
   - you don't have to do anything here at this point (though feel free to play around if you're so inclined) - I just wanted you to see what things look like
 
 ### INS
 
 All assignments, lab quizzes, and the live coding portion of the final exam will be done on INS - so you need to get comfortable working there as quickly as possible.
 
-Typically, working on INS involves logging in, editing some file(s) - which you might have to copy over from another directory on the system - and then logging off.
+Typically, working on INS involves logging in, editing some file(s) - which you might have to copy over from another directory on the system - and then logging off. The editor we use by default is called **Emacs**. It's a bit odd when you first start, but you'll soon get used to it...if you practice using it.
 
 To give you a taste of this, do the following:
 
 - [ ] log in to INS
+    - every time you log in to INS, you start in a place called your _home directory_
 - [ ] use the `cp -r` command to copy a directory to another directory
+    - you could use `/users/library/csis/comp1501/quizzes/practice-quiz-00/`, for example
 - [ ] use the `ls` command to "see" what files and directories are visible in your current directory
 - [ ] use the `tree` command to "see" what files and folders are inside other directories
 - [ ] use the `cd` command to "move" between directories
 - [ ] use the `emacs` command to open a file for editing
+    - you could open the `.emacs` file in your home directory, for example
 - [ ] use the `emacs` command to create and edit a new file
-- [ ] use the `ctrl + z` command to suspend emacs / `fg` command to resume it
-- [ ] use the `ctrl + x, ctrl + s` command to exit emacs
-- [ ] use the `ctrl + x, ctrl + c` command to exit emacs
+- [ ] use the `ctrl + z` command to suspend Emacs / `fg` command to resume it
+- [ ] use the `ctrl + x, ctrl + s` command to save your file
+- [ ] use the `ctrl + x, ctrl + c` command to exit Emacs
 - [ ] use the `rm` command to delete a file
 - [ ] use the `rm -r` command to delete a directory
 - [ ] use the `exit` or `ctrl + d` command to exit INS
