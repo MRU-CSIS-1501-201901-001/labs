@@ -1,72 +1,55 @@
 # Lab-01
 
-## Goal for this lab
+## Goals for this lab
 
-The goal of this lab is to become familiar with the 3 systems that will be used consistently throughout our course: **GitHub**, **<span>REPL.IT</span>**, and **INS**.
+The primary goal of this lab is to help you prepare for the faux lab quiz on Friday. To do this, we'll:
+- create a couple of classes on INS using Emacs
+- complete a <span>REPL.IT</span> drill together
 
-### GITHUB
+If you don't know how to get onto INS or into our <span>REPL.IT</span> classroom, then you can pair up with someone else who does. You'll need to get caught up before our quiz on Friday.
 
-All labs and assignment instructions will be available on [GitHub](https://github.com). It is in your best interest to be automatically notified of any changes/corrections to them; fortunately, GitHub allows us to do this through its **watch** feature.
-
-In addition, having at least a working knowledge of GitHub is very beneficial if you want to pursue a career involving software development. Also, a growing number of our courses at MRU make use of GitHub as well.
-
-Please do the following:
-
-- [ ] sign up for a GitHub account here: https://github.com/
-  - when you choose a username, choose something that wouldn't raise eyebrows in a job interview
-- [ ] go to our [lab repository](https://github.com/MRU-CSIS-1501-201901-001/labs) and click the **Watch** dropdown and change the selection from **Not watching** to **Watching**: ![screenshot](images/lab.00.00.png)
-- [ ] repeat the process for our [assignment repository](https://github.com/MRU-CSIS-1501-201901-001/assignments)
-- [ ] [optional] pick up a [GitHub Student Developer Pack](https://help.github.com/articles/applying-for-a-student-developer-pack/); it's not at all required for this course, but it's got some nice benefits if you're interested in software development
-
-**Note:** sometimes notification emails from GitHub will get marked as spam; to avoid this, add **notifications<span>@github.com</span>** to your accepted emails.
-
-### <span>REPL.IT</span>
-
-<span>REPL.IT</span> is the site where you will be doing your skill drills, so you'll need to have an account and access to the course where those drills are located.
-
-Let's get started:
-
-- [ ] create a <span>REPL.IT</span> account
-  - create an account by signing up at REPL.IT ... make sure you verify your email and update your profile (just add your first and last name to make my marking life easier and please also add the school).
-  - If you want, here's a [quick video overview](https://drive.google.com/a/mtroyal.ca/file/d/1K-dHMREkC4_z_U5b7k4HUBLe0q8m3p5z/view?usp=sharing).
-- [ ] enroll in our classroom
-  - log in (if you're not in already) to your REPL.IT account
-  - paste this enrollment link into the browser: https://repl.it/classroom/invite/4Ii47lS - you should now be able to see `2019 1501 Skill Drills` under your classrooms.
-    - If you want, here's a [quick video overview](https://drive.google.com/a/mtroyal.ca/file/d/1PqeRqn1-mPn2MYpNsPgWWP-SP_vnRxqf/view?usp=sharing). The link and classroom name shown in the video is a bit different than our current one, but the steps are the same!
-- [ ] take a look at the `practice lab quiz drill 00` drill
-  - click on our classroom to open it
-  - click on the `practice lab quiz drill 00` drill
-  - you don't have to do anything here at this point (though feel free to play around if you're so inclined) - I just wanted you to see what things look like
+---
 
 ### INS
 
-All assignments, lab quizzes, and the live coding portion of the final exam will be done on INS - so you need to get comfortable working there as quickly as possible.
+Let's create a typical application structure used in this course.
 
-Typically, working on INS involves logging in, editing some file(s) - which you might have to copy over from another directory on the system - and then logging off. The editor we use by default is called **Emacs**. It's a bit odd when you first start, but you'll soon get used to it...if you practice using it.
+1. Log in to INS.
+1. Create a directory called `ins-drill`. 
+1. Inside **that** directory, create another directory called `src`.
+    - you can do this one of two ways: by using "cd-ing" into `ins-drill` and making the `src` directory, or by using a valid _path_ directly from your home directory
+1. cd into the `src` directory and create a Java source file for a class called Drill. The source file doesn't need any "real" content - it just needs to be able to compile without errors.
+    - what does the file have to be called?
+    - what contents should be in this file?
+1. Save your work and then suspend Emacs - don't exit it, because we'll be going back in shortly.
+1. Compile your Drill file. You might have some errors; fix them.
+1. Once compiled, _predict whether you can run the compiled file._
+1. Run the compiled file.
+    - Did your prediction come true? If not, why not?
+1. Now create a Java source file for a class called Main. Because this will be our entry point into our "application", it needs a proper static main
 
-To give you a taste of this, do the following:
+### <span>REPL.IT</span>
 
-- [ ] log in to INS
-    - every time you log in to INS, you start in a place called your _home directory_
-- [ ] use the `cp -r` command to copy a directory to another directory
-    - you could use `/users/library/csis/comp1501/quizzes/practice-quiz-00/`, for example
-- [ ] use the `ls` command to "see" what files and directories are visible in your current directory
-- [ ] use the `tree` command to "see" what files and folders are inside other directories
-- [ ] use the `cd` command to "move" between directories
-- [ ] use the `emacs` command to open a file for editing
-    - you could open the `.emacs` file in your home directory, for example
-- [ ] use the `emacs` command to create and edit a new file
-- [ ] use the `ctrl + z` command to suspend Emacs / `fg` command to resume it
-- [ ] use the `ctrl + x, ctrl + s` command to save your file
-- [ ] use the `ctrl + x, ctrl + c` command to exit Emacs
-- [ ] use the `rm` command to delete a file
-- [ ] use the `rm -r` command to delete a directory
-- [ ] use the `exit` or `ctrl + d` command to exit INS
+1. Go to our classroom and open `lab 01: our first drill`.
+    - Remember: having two classes like this is a bit weird - they're not really in the same file, but the layout here in REPL makes it seem that way.
+1. Read the code, _then predict what will happen in the console when the code is run._
+1. Run the code.
+    - Did your prediction come true? If not, why not?
+1. Let's break things in a variety of ways and understand _why_ things are broken. After each mess-up, run the code and read the error messages (as awful as they may look). **Learning to be read and be unafraid of error messages is super-important.**
+    - Mess up the spelling of `class` (either one).
+    - Change the casing (capitalization) of Main or of UselessMinion.
+      - That's odd...refresh the browser and try again.
+      - That's even odder, yes? --This is a REPL issue, not a Java issue!--
+    - Change the case of System.
+    - Change the case of String.
+    - Remove a semicolon.
+    - Remove a single bracket.
+    - Remove a pair of matching brackets (like those after `uselessStatement`).
+    - Remove a brace.
+1. asd
 
-#### RESOURCES
+### ON YOUR OWN
 
-- a reference of Linux commands commonly used in this course is available here: https://bit.ly/mru-1501-linux-ref
-- a reference for basic Emacs commands is available here: https://bit.ly/mru-1501-emacs-ref
-- if you want to connect to INS from home or a laptop:
-  - Windows how-to here: https://github.com/MRU-CSIS-1501/putty.setup.guide
-  - Mac how-to here: https://github.com/MRU-CSIS-1501/mac.terminal.setup.guide
+You should now be able to do the `practice lab quiz 00` found in https://github.com/MRU-CSIS-1501-201901-001/lab.quizzes. Make sure you time yourself, as you only have 25 minutes on the real practice quiz Friday.
+
+If you're unable to get through the practice quiz in a timely fashion, practice the areas that are giving you trouble. Don't hesitate to ask for help.
