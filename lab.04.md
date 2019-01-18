@@ -15,3 +15,5 @@ I'll go through the first one on the board.
 The second one, we'll do together.
 
 I'll have you work in teams and hit the whiteboard for the final one.
+
+You can use REPL.IT to check your work ... for this and any other tracing practice you come across!
