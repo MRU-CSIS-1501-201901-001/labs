@@ -49,11 +49,11 @@ There's a funky thing going on in the method signature here:
   }
 ```
 
-Notice how the type of the sole parameter is `Hex`? That might seem weird to you - you've been used to seeing **primitive types** and **String** in the parameter list up to now. But it's perfectly acceptable - and actually common! - to have objects as parameters!
+Notice how the type of the sole parameter is `Hex`? That might seem weird to you - you've been used to seeing **primitive types** and **String** in the parameter list up to now. But it's perfectly acceptable - and actually common - to have objects as parameters!
 
 Since the code for `adjacent` is in the `Hex` class itself, **you can talk directly to instance variables of any Hex object**. To do so, you use dot notation, just like we do for methods, but we leave off the brackets.
 
-For example, if you want to "talk" to the `object` parameter in the `adjacent` method, and assuming you have an instance variable in `Hex` called `col`, you can do things like this in your code:
+For example, if you want to "talk" to the `other` parameter in the `adjacent` method, and assuming you have an instance variable in `Hex` called `col`, you could do things like this in your code:
 
 ```java
   public boolean adjacent(Hex other) {
