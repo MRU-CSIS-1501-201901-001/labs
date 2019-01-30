@@ -1,7 +1,6 @@
-# Lab-05
+# Lab-06
 
 ## Goals for this lab
 
-- Finish up your week-02 drills.
-- Try (or re-try) one of the quiz 01 practices.
-- Ask questions!
+This is the lab quiz 01 lab.
+Instructions are here: https://github.com/MRU-CSIS-1501-201901-001/lab.quizzes/blob/master/01/quiz-01-instructions.md
