@@ -30,6 +30,7 @@ I've done this in my screencasts and in lecture...it's pretty darn useful.
 > - Ctrl + X, o => (that's an "oh") go to another pane
 > - Ctrl + X, 1 => make the currently selected pane the only one
 > - Ctrl + X, 0 => (that's a zero) remove the selected pane
+> - Ctrl + X, Ctrl + F => open file in selected pane
 
 #### AUTOCOMPLETE
 
