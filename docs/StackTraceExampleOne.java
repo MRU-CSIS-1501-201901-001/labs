@@ -5,7 +5,7 @@ public class StackTraceExampleOne {
     private Scanner kbd = new Scanner(System.in);
 
     public static void main(String[] args) {
-        new DebuggingExample().run();
+        new StackTraceExampleOne().run();
     }
 
     public void run() {

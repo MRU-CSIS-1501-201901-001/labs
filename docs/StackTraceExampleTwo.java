@@ -5,7 +5,7 @@ public class StackTraceExampleTwo {
     private Scanner kbd = new Scanner(System.in);
 
     public static void main(String[] args) {
-        new DebuggingExample2().run();
+        new StackTraceExampleTwo().run();
     }
 
     public void run() {
@@ -32,13 +32,13 @@ public class StackTraceExampleTwo {
         int length = word.length();
         int i = 0;
         String vowelsFound = "";
-        
+
         while (i < length) {
             String c = word.substring(i, i + 1);
             if (isVowel(c) && !vowelsFound.contains(c)) {
                 vowelsFound += c;
             }
-             i++;
+            i++;
         }
         return vowelsFound;
     }
