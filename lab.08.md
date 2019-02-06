@@ -9,11 +9,29 @@
 
 ## DEBUGGING TIPS
 
-### GET TO KNOW COMMON ERRORS
+### Get to know common compile-time errors
+
+It might not seem that way when you're first starting out, but compile-time errors are the "easy" errors - it's just that when you first start programming, the language is unfamiliar, so you make lots of minor mistakes that wind up creating these kind of errors.
 
 Although you'll see a lot of different kinds of compile time errors during this course (and onward, perhaps?), some are more common than others.
 
 Here is a useful guide to some of the more common ones: http://www.terryanderson.ca/debugging/compile.html
+
+### Be familiar with common run-time errors
+
+Just because your code compiles, doesn't mean you're out of the woods yet. Sometimes, when you run a compiled program, it will blow up with an _exception_ of some sort. This is an example of a **run-time error**, and the come in many shapes an sizes.
+
+When an exception occurs, you'll get an intimidating blast of text known as a **stack trace**, and these suckers are super useful in helping you find your errors.
+
+### STACK TRACES EXAMPLES
+
+1. What happens when we run [this code](https://repl.it/@jpratt/StackTraceExampleOne) a number of different ways?
+
+   - a first and last name
+   - just a first (or last) name
+   - a first, middle, and last name
+
+1. What happens when we run [this code](https://repl.it/@jpratt/StackTraceExampleTwo)?
 
 ### GENERAL STRATEGIES WHEN FACED WITH ERRORS
 
@@ -23,10 +41,12 @@ Here is a useful guide to some of the more common ones: http://www.terryanderson
   - if you give each of your classes a useful `toString` that displays instance variable information, trace statements become even **more** useful!
 - start looking for errors on the line of code that prints out the thing you don't like; that line will often lead you to another line, which leads to another...which will almost always lead you back to the root cause of your problem
 
-### STACK TRACES
 
-StackTraceExampleTwo.java
-StackTraceExampleOne.java
+### Further References
+
+- http://www.terryanderson.ca/debugging/run.html
+
+- http://www.terryanderson.ca/debugging/intent.html
 
 ---
 
