@@ -24,10 +24,6 @@ public int numChars()
 public int numWords()
 ```
 
-#### Something to note here
-
-Yesterday in lecture, we made 
-
 ### NOW YOU DO ONE
 
 Next, it's your turn. Code up a class called UserLoader that loads user data from a file consisting of a usernames and ages; you'll return these as an ArrayList<User>. Yes, that means you have another class to make!
